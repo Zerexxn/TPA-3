@@ -1,0 +1,55 @@
+
+body {
+    background: #839adb;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    padding: 1rem;
+  }
+  
+  
+  .logo {
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+  }
+  
+  .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 2rem;
+  }
+  
+  .card {
+      color: white;
+      margin: 0.5rem;
+      transition: 0.3s;
+      background-color: #000206;
+      text-align: center;
+  
+  }
+  
+  .card img {
+      max-height: 300px;
+  }
+  
+  .title {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+  h5 {
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      max-width: 17ch;
+  }
+  
